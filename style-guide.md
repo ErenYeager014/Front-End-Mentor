@@ -9,18 +9,23 @@ The designs were created to the following widths:
 
 ## Colors
 
-- Light pink: hsl(275, 100%, 97%)
+### Primary
+
+- Yellow: hsl(47, 88%, 63%)
+
+### Neutral
+
 - White: hsl(0, 0%, 100%)
-- Grayish purple: hsl(292, 16%, 49%)
-- Dark purple: hsl(292, 42%, 14%)
+- Grey: hsl(0, 0%, 50%)
+- Black: hsl(0, 0%, 7%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size (paragraphs): 16px
+- Font size (paragraph): 16px
 
 ### Font
 
-- Family: [Work Sans](https://fonts.google.com/specimen/Work+Sans)
-- Weights: 400, 600, 700
+- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
+- Weights: 600, 800
