@@ -1,0 +1,163 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+color: white;
+}
+:root{
+    --DarkBlue:hsl(249, 10%, 26%);
+    --GrayishBlue: hsl(246, 25%, 77%);
+    --Blue: hsl(248, 32%, 49%);
+    --Red: hsl(0, 100%, 74%);
+    --Green: hsl(154, 59%, 51%);
+    --darkGreen:#3db27e;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    background: url("./images/bg-intro-mobile.png"),var(--Red);
+}
+section{
+    max-width: 80%;
+}
+section:nth-child(1){
+    text-align: center;
+}
+section>h1{
+    margin-block: 1rem;
+    font-size: 1.5rem;
+    padding-inline: 1rem;
+}
+section:nth-child(1) > p{
+    font-size: 15px;
+    font-weight: 300;
+}
+section:nth-child(2) > div{
+    background-color: var(--Blue);
+    text-align: center;
+    padding: 1rem 3rem;
+    border-radius: 15px;
+    font-size: small;
+    margin-block: 1rem;
+}
+section:nth-child(2) > div >span{
+    font-weight: 800;
+}
+form{
+    background-color: white;
+    padding: .7rem 1.1rem;
+    border-radius: 10px;
+}
+form > *:not(p){
+    width: 100%;
+    margin-block: .4rem;
+    
+}
+form > button{
+    background-color: var(--Green);
+    font-size: small;
+    text-transform: uppercase;
+    border: none;
+    box-shadow: 1px 2px var(--darkGreen);
+}
+form input{
+    color: var(--Blue);
+    font-weight: 600;
+    width: 100%;
+    padding: 8px 12px;
+    border: .5px solid var(--GrayishBlue);
+    border-radius: 3px;
+    position: relative;
+}
+form input:focus{
+    outline-color: var(--Blue);
+    color: var(--Blue);
+    font-weight: 600;
+}
+section:nth-child(2) > form > p {
+    text-align: center;
+    font-size: 10px; 
+    color: var(--GrayishBlue);
+}
+section:nth-child(2) > form > p > *{
+    color: var(--Red);
+}
+form input::placeholder{
+    font-weight: 600;
+    color: var(--GrayishBlue);
+}
+form input::placeholder{
+    color:var(--DarkBlue)
+}
+
+section:nth-child(2) > * {
+    box-shadow: 3px 3px rgba(0, 0, 0, .095);
+}
+section:nth-child(2) > form > p{
+    padding-block-start: 5px;
+    font-size: 7px;
+}
+form div input {
+    position: relative;
+}
+form div img{
+    position: absolute;
+    width: auto;
+    margin-left: -2rem;
+    margin-top: .5rem;
+    
+}
+@media (min-width:700px){
+    body{
+        flex-direction: row;
+        
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        background: url("./images/bg-intro-desktop.png"),var(--Red);
+    }
+    section:nth-child(1){
+        max-width: 50%;
+    }
+    section:nth-child(2){
+        max-width: 35%;
+    }
+    section:nth-child(2) > *{
+        padding:  1.7rem;
+    }
+    section:nth-child(1){
+        text-align: left;
+    }
+    section:nth-child(1) > *{
+        padding: 0;
+    }
+    section:nth-child(1) > h1{
+        margin-block: 2rem;
+        font-size: 3rem;
+        
+    }
+    section:nth-child(1) > p{
+        font-size: 1.1rem;
+    }
+    section:nth-child(2) > div{
+        border-radius: 6px;
+        font-size: 10px;
+    }
+    section:nth-child(2) > * {
+        box-shadow: 8x 8px rgba(0, 0, 0, .5) rgba(0, 0, 0, .5);
+    }
+    section:nth-child(2) > form > p{
+        padding-block-start: 5px;
+        font-size: 7px;
+    }
+   
+}
