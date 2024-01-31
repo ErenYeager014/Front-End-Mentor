@@ -9,18 +9,26 @@ The designs were created to the following widths:
 
 ## Colors
 
-- Light pink: hsl(275, 100%, 97%)
-- White: hsl(0, 0%, 100%)
-- Grayish purple: hsl(292, 16%, 49%)
-- Dark purple: hsl(292, 42%, 14%)
+### Primary
+
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
+
+### Neutral
+
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size (paragraphs): 16px
+- Font size: 15px
 
-### Font
+### Fonts
 
-- Family: [Work Sans](https://fonts.google.com/specimen/Work+Sans)
-- Weights: 400, 600, 700
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 200, 400, 600
